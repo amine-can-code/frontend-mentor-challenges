@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Blog preview card</title>
+
+    <link rel="stylesheet" href="src/output.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body
+    class="h-screen bg-[#F4D04E] flex flex-col items-center justify-center gap-y-6"
+  >
+    <div
+      class="bg-white flex flex-col p-6 gap-y-6 w-sm rounded-[20px] border border-gray-950 shadow-[8px_8px_0px_0px] shadow-black"
+    >
+      <figure>
+        <img
+          class="rounded-[10px]"
+          src="assets/images/illustration-article.svg"
+          alt="illustration article"
+        />
+      </figure>
+      <div class="flex flex-col gap-y-3">
+        <p>
+          <span
+            class="bg-[#F4D04E] text-sm py-1 px-3 rounded-sm font-extrabold leading-[1.5] text-gray-950"
+            >Learning</span
+          >
+        </p>
+        <p class="text-gray-950 font-medium leading-[1.5]">
+          Published 21 Dec 2023
+        </p>
+        <h1 class="text-gray-950 text-2xl font-extrabold leading-[1.5]">
+          HTML & CSS foundations
+        </h1>
+        <p class="text-gray-500 text-base font-medium leading-[1.5]">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+      </div>
+      <div class="flex items-center gap-x-3">
+        <figure>
+          <img
+            class="w-[32px] h-[32px]"
+            src="assets/images/image-avatar.webp"
+            alt="image avatar"
+          />
+        </figure>
+        <p class="text-gray-950 font-extrabold text-sm leading-[1.5]">
+          Greg Hooper
+        </p>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Amine</a>.
+    </div>
+  </body>
+</html>

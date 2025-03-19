@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="src/output.css" />
+
+    <title>Frontend Mentor | Recipe page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg-[#F3E5D7] flex justify-center md:py-32 md:px-12">
+      <div
+        class="bg-white w-full md:w-[616px] xl:w-[736px] flex flex-col md:gap-10 md:p-10 rounded-3xl"
+      >
+        <figure>
+          <img
+            class="rounded-xl"
+            src="assets/images/image-omelette.jpeg"
+            alt="omelette"
+          />
+        </figure>
+        <div class="bg-white flex flex-col gap-8 py-10 px-8 md:p-0">
+          <div class="flex flex-col gap-6">
+            <h1
+              class="text-stone-900 text-4xl md:text-[40px] leading-9 font-normal font-[YoungSerif]"
+            >
+              Simple Omelette Recipe
+            </h1>
+            <p class="text-stone-600 text-base font-normal leading-[1.5]">
+              An easy and quick dish, perfect for any meal. This classic
+              omelette combines beaten eggs cooked to perfection, optionally
+              filled with your choice of cheese, vegetables, or meats.
+            </p>
+          </div>
+          <div class="bg-rose-50 flex flex-col gap-4 p-6 rounded-xl">
+            <h2 class="text-rose-800 text-xl font-semibold">
+              Preparation time
+            </h2>
+            <ul
+              class="list-disc list-inside ps-2 text-stone-600 marker:text-rose-800 text-base space-y-2"
+            >
+              <div class="flex items-center gap-4">
+                <li></li>
+                <p>
+                  <span class="font-bold">Total:</span> Approximately 10 minutes
+                </p>
+              </div>
+              <div class="flex items-center gap-4">
+                <li></li>
+                <p><span class="font-bold">Preparation:</span> 5 minutes</p>
+              </div>
+              <div class="flex items-center gap-4">
+                <li></li>
+                <p><span class="font-bold">Cooking:</span> 5 minutes</p>
+              </div>
+            </ul>
+          </div>
+          <div class="flex flex-col gap-6">
+            <h2
+              class="text-[#854632] text-[28px] font-[YoungSerif] font-normal leading-7"
+            >
+              Ingredients
+            </h2>
+            <ul
+              class="list-disc list-inside ps-2 text-stone-600 marker:text-[#854632] text-base space-y-2"
+            >
+              <div class="flex items-center gap-4">
+                <li></li>
+                <p>2-3 large eggs</p>
+              </div>
+              <div class="flex items-center gap-4">
+                <li></li>
+                <p>Salt, to taste</p>
+              </div>
+              <div class="flex items-center gap-4">
+                <li></li>
+                <p>Pepper, to taste</p>
+              </div>
+              <div class="flex items-center gap-4">
+                <li></li>
+                <p>1 tablespoon of butter or oil</p>
+              </div>
+              <div class="flex items-center gap-4">
+                <li></li>
+                <p>
+                  Optional fillings: cheese, diced vegetables, cooked meats,
+                  herbs
+                </p>
+              </div>
+            </ul>
+          </div>
+          <hr class="text-[#E3DDD7]" />
+          <div class="flex flex-col gap-6">
+            <h2
+              class="text-[#854632] text-[28px] font-[YoungSerif] font-normal leading-7"
+            >
+              Instructions
+            </h2>
+            <ul
+              class="list-decimal list-inside ps-2 text-stone-600 marker:text-[#854632] marker:font-bold text-base space-y-2"
+            >
+              <div class="flex gap-4">
+                <li></li>
+                <p>
+                  <span class="font-bold">Beat the eggs:</span> In a bowl, beat
+                  the eggs with a pinch of salt and pepper until they are well
+                  mixed. You can add a tablespoon of water or milk for a
+                  fluffier texture.
+                </p>
+              </div>
+              <div class="flex gap-4">
+                <li></li>
+                <p>
+                  <span class="font-bold">Heat the pan: </span> Place a
+                  non-stick frying pan over medium heat and add butter or oil.
+                </p>
+              </div>
+              <div class="flex gap-4">
+                <li></li>
+                <p>
+                  <span class="font-bold">Cook the omelette:</span> Once the
+                  butter is melted and bubbling, pour in the eggs. Tilt the pan
+                  to ensure the eggs evenly coat the surface.
+                </p>
+              </div>
+              <div class="flex gap-4">
+                <li></li>
+                <p>
+                  <span class="font-bold">Add fillings (optional):</span> When
+                  the eggs begin to set at the edges but are still slightly
+                  runny in the middle, sprinkle your chosen fillings over one
+                  half of the omelette.
+                </p>
+              </div>
+              <div class="flex gap-4">
+                <li></li>
+                <p>
+                  <span class="font-bold">Fold and serve:</span> As the omelette
+                  continues to cook, carefully lift one edge and fold it over
+                  the fillings. Let it cook for another minute, then slide it
+                  onto a plate.
+                </p>
+              </div>
+              <div class="flex gap-4">
+                <li></li>
+                <p>
+                  <span class="font-bold">Enjoy: </span> Serve hot, with
+                  additional salt and pepper if needed.
+                </p>
+              </div>
+            </ul>
+          </div>
+          <hr class="text-[#E3DDD7]" />
+          <div class="flex flex-col gap-6">
+            <h2
+              class="text-[#854632] text-[28px] font-[YoungSerif] font-normal leading-7"
+            >
+              Nutrition
+            </h2>
+            <p class="text-stone-600 text-base font-normal">
+              The table below shows nutritional values per serving without the
+              additional fillings.
+            </p>
+            <div class="flex flex-col gap-3">
+              <div class="grid grid-cols-2 items-center gap-4 px-8">
+                <p class="text-stone-600 text-base font-normal">Calories</p>
+                <p class="text-[#854632] text-base leading-[1.5] font-bold">
+                  277kcal
+                </p>
+              </div>
+              <hr class="text-[#E3DDD7]" />
+              <div class="grid grid-cols-2 items-center gap-4 px-8">
+                <p class="text-stone-600 text-base font-normal">Carbs</p>
+                <p class="text-[#854632] text-base leading-[1.5] font-bold">
+                  0g
+                </p>
+              </div>
+              <hr class="text-[#E3DDD7]" />
+              <div class="grid grid-cols-2 items-center gap-4 px-8">
+                <p class="text-stone-600 text-base font-normal">Protein</p>
+                <p class="text-[#854632] text-base leading-[1.5] font-bold">
+                  20g
+                </p>
+              </div>
+              <hr class="text-[#E3DDD7]" />
+              <div class="grid grid-cols-2 items-center gap-4 px-8">
+                <p class="text-stone-600 text-base font-normal">Fat</p>
+                <p class="text-[#854632] text-base leading-[1.5] font-bold">
+                  22g
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>-->
+  </body>
+</html>
